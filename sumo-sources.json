@@ -7,6 +7,7 @@
       "pathExpression": "/var/log/containers/*",
       "multilineProcessingEnabled": false,
       "automaticDateParsing": true,
+      "category": "kubernetes",
       "forceTimeZone": false
     }
     ]
