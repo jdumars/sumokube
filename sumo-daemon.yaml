@@ -16,7 +16,7 @@ spec:
       serviceAccount: sumo-daemon
       containers:
       - name: sumo-daemon
-        image: jsingerdumars/sumo:latest
+        image: jsingerdumars/sumokube:latest
         imagePullPolicy: Always
         securityContext:
           privileged: true
