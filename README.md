@@ -1,4 +1,4 @@
-# sumokube
+#SumoKube  ![Alt text](/sumokube_small.jpg?raw=true "SumoKube") 
 Sumo Logic daemonset for Kubernetes
 
 ## Get started
