@@ -1,21 +1,21 @@
 apiVersion: extensions/v1beta1
 kind: DaemonSet
 metadata:
-  name: sumo-daemon
+  name: sumokube
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: sumo-daemon
+      app: sumokube
   template:
     metadata:
-      name: sumo-daemon
+      name: sumokube
       labels:
-        app: sumo-daemon
+        app: sumokube
     spec:
-      serviceAccount: sumo-daemon
+      serviceAccount: sumokube
       containers:
-      - name: sumo-daemon
+      - name: sumokube
         image: jsingerdumars/sumokube:latest
         imagePullPolicy: Always
         securityContext:
