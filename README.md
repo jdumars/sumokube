@@ -10,7 +10,7 @@ Next, you need to add your credentials to the sumokube.yaml file where the xxxxx
 We assume at this point you have an up and running Kubernetes cluster and that /var/log/containers setup with symlinks to logs under /var/lib/docker/containers.  Before installing the daemon set, there are a few things you might want to customize.  First, it is configured to run in the default namespace, and you may prefer to put it in its own.  Just change the line in the sumokube.yaml file.  Another change you might want to make is adjusting the category name in the sumo-sources.json so it is specific to the cluster you are working with.  Now, if you do this, you'll need to build your own Docker image specific to that cluster.  Lastly, you can make the service account name different too.  But whatever you choose needs to be consistent between the two yaml files.  
 
 Step one: build the service account  
-```kubectl create -f sumokube-service.yaml```
+```kubectl create -f sumo-service.yaml```
 
 Step two: install the daemon set  
 ```kubectl create -f sumokube.yaml```  
