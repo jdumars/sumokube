@@ -16,7 +16,7 @@ To install the chart with the release name `my-release`, retrieve your Sumo Logi
 
 ```bash
 $ helm install --name my-release \
-    --set sumologic.accessId=YOUR-ID-HERE,sumologic.accessKey=YOUR-KEY-HERE stable/datadog
+    --set sumologic.accessId=YOUR-ID-HERE,sumologic.accessKey=YOUR-KEY-HERE stable/sumokube
 ```
 
 After a few minutes, you should see logs available in Sumo Logic.
