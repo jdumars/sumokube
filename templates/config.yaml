@@ -8,6 +8,9 @@ metadata:
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
+  annotations:
+    "helm.sh/created": {{.Release.Time.Seconds | quote }}
+    "helm.sh/hook": pre-install,pre-upgrade
 data:
   sumo-sources.json: |-
     {
