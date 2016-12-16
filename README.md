@@ -60,7 +60,7 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 
 ```bash
 $ helm install --name my-release \
-    --set sumologic.accessId=YOUR-ID-HERE,sumologic.accessKey=YOUR-KEY-HERE,sumologic.categoryName=my-source-category-name
+    --set sumologic.accessId=YOUR-ID-HERE,sumologic.accessKey=YOUR-KEY-HERE,sumologic.categoryName=my-source-category-name \
     stable/sumokube
 ```
 
