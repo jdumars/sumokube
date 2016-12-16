@@ -1,4 +1,4 @@
-{{- if .Values.sumologic.accessId }}
+{{- if and .Values.sumologic.accessId .Values.sumologic.accessKey -}}
 apiVersion: extensions/v1beta1
 kind: DaemonSet
 metadata:
