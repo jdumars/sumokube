@@ -1,4 +1,4 @@
-#SumoKube  ![Alt text](/sumokube_small.jpg?raw=true "SumoKube")
+#SumoKube  ![sumokube](https://github.com/jdumars/sumokube/blob/master/sumokube.jpg)
 
 [Sumo Logic](https://www.sumologic.com/) is a hosted logging platform.
 
